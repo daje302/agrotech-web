@@ -1,0 +1,9 @@
+services:
+  - type: web
+    name: agrotech-web
+    runtime: static
+    buildCommand: ""
+    staticPublishPath: ./
+    envVars:
+      - key: API_BASE
+        value: https://agrotech-api-0ir0.onrender.com
